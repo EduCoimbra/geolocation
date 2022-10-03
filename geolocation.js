@@ -10,7 +10,7 @@ function getLocation(){
 }
 
 function showPosition(position){
-  x.innerHTML = "<strong>Latitude:</strong> " +position.coords.latitude+ "<br> <strong>Longitude:</strong> " +position.coords.longitude;
+  x.innerHTML = `<strong>Latitude:</strong>${position.coords.latitude} <br><strong>Longitude:</strong> ${position.coords.longitude}`;
 }
 
 // Handling errors
